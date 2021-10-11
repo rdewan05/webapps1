@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/App.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="main-container" id="main">
+        <div class="search-container">
+            <div class="search-bar">
+                <input class="search" type="text" placeholder="search here...">
+            </div>
+        </div>
+        <div class="additional">
+            <select name="sortby" id="sort" style="width: 300px">
+                <option selected>Sort By</option>
+                <option id="rating">Rating</option>
+                <option id="eta">ETA</option>
+            </select>
+            <select name="filterby" id="tag" style="width: 300px">
+                <option selected>All Cuisines</option>
+                <option id="american">American</option>
+                <option id="fast-food">Fast-Food</option>
+                <option id="healthy">Healthy</option>
+                <option id="south-indian">South Indian</option>
+                <option id="italian">Italian</option>
+            </select>
+            <button onclick="displayFavorites()">Favorites</button>
+        </div>
+        <div class="cards-container" id="cards"></div>
+    </div>
+    <script src="js/foodApp.js"></script>
+</body>
+
+</html>
