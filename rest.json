@@ -1,0 +1,190 @@
+[{
+    "name":"Burger Point",
+    "id":"1",
+    "rating":"4.2",
+    "location":"Hitech city",
+    "eta":"40 minutes",
+    "tags":["American","Fast-Food"],
+    "photo":"./resources/burger-express-kolkata-fast-food-zrs1d6tvml.jpg",
+    "menu": {
+        "items": [
+            {
+                "name":"coke",
+                "qty": 20,
+                "category":"drinks",
+                "sizes":["small","large"]
+            },
+            {
+                "name":"hamburger",
+                "qty": 40,
+                "category":"junk food",
+                "sizes":["small","large"]
+            },
+            {
+                "name":"fries",
+                "qty": 20,
+                "category":"junk food",
+                "sizes":["small","large"]
+            }
+            
+        ]
+    }
+},
+{
+    "name":"Pizza Hut",
+    "id":"2",
+    "rating":"3.1",
+    "location":"South city",
+    "eta":"30 minutes",
+    "tags":["Italian","Fast-Food"],
+    "photo":"./resources/pizza-hut-logo-19447536.jpg",
+    "menu": {
+        "items": [
+            {
+                "name":"pepsi",
+                "qty": 20,
+                "category":"drinks",
+                "sizes":["small","large"]
+            },
+            {
+                "name":"water",
+                "qty": 20,
+                "category":"drinks",
+                "sizes":["small","large"]
+            },
+            {
+                "name":"pizza",
+                "qty": 20,
+                "category":"junk food",
+                "sizes":["small","large"]
+            }
+            
+        ]
+    }
+},
+{
+    "name":"Subway",
+    "id":"3",
+    "rating":"4.0",
+    "location":"Cyber Hub",
+    "eta":"20 minutes",
+    "tags":["Healthy","Fast-Food"],
+    "photo":"./resources/subway-header.jpg",
+    "menu": {
+        "items": [
+            {
+                "name":"water",
+                "qty": 20,
+                "category":"drinks",
+                "sizes":["small","large"]
+            },
+            {
+                "name":"sub",
+                "qty": 20,
+                "category":"healthy",
+                "sizes":["6inch","12inch"]
+            },
+            {
+                "name":"fries",
+                "qty": 20,
+                "category":"fast food",
+                "sizes":["small","large"]
+            }
+            
+        ]
+    }
+},
+{
+    "name":"DN Snacks",
+    "id":"4",
+    "rating":"3.5",
+    "location":"Gurgaon city",
+    "eta":"40 minutes",
+    "tags":["Italian","Fast-Food"],
+    "photo":"./resources/DN-snacks.png",
+    "menu": {
+        "items": [
+            {
+                "name":"coke",
+                "qty": 20,
+                "category":"drinks",
+                "sizes":["small","large"]
+            },
+            {
+                "name":"pasta",
+                "qty": 40,
+                "category":"italian"
+            },
+            {
+                "name":"pizza",
+                "qty": 20,
+                "category":"italian",
+                "sizes":["small","medium","large"]
+            }
+            
+        ]
+    }
+},
+{
+    "name":"Southy",
+    "id":"5",
+    "rating":"5.0",
+    "location":"CyberHub",
+    "eta":"30 minutes",
+    "tags":["South Indian"],
+    "photo":"./resources/southy.png",
+    "menu": {
+        "items": [
+            {
+                "name":"dosa",
+                "qty": 20,
+                "category":"meal",
+                "sizes":["small","large"]
+            },
+            {
+                "name":"uttapam",
+                "qty": 20,
+                "category":"snacks",
+                "sizes":["small","large"]
+            },
+            {
+                "name":"rasam",
+                "qty": 20,
+                "category":"desserts"
+            }
+            
+        ]
+    }
+},
+{
+    "name":"Burger Singh",
+    "id":"6",
+    "rating":"4.5",
+    "location":"Cyber Hub",
+    "eta":"20 minutes",
+    "tags":["Fast-Food", "American"],
+    "photo":"./resources/burger-singh.png",
+    "menu": {
+        "items": [
+            {
+                "name":"water",
+                "qty": 20,
+                "category":"drinks",
+                "sizes":["small","large"]
+            },
+            {
+                "name":"punjab-burger",
+                "qty": 20,
+                "category":"fast-food",
+                "sizes":["small","medium"]
+            },
+            {
+                "name":"fries",
+                "qty": 20,
+                "category":"fast food",
+                "sizes":["small","large"]
+            }
+            
+        ]
+    }
+}]
